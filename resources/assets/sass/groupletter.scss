@@ -1,0 +1,35 @@
+// https://github.com/thoughtbot/bourbon
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+// https://github.com/thoughtbot/bitters
+@import "../vendor/bitters/base";
+
+// https://github.com/thoughtbot/neat
+@import "bower_components/neat/app/assets/stylesheets/neat";
+
+body {
+  margin: 0;
+}
+
+.app {
+  @include outer-container;
+
+  header[role="banner"] {
+    @include span-columns(12);
+  }
+
+  section[role="main"] {
+    @include span-columns(12);
+    margin-top: 1em;
+  }
+}
+
+.centeredbox {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #f8f8f8;
+  padding: 1em 2em;
+}
+
+@import "header-nav";
