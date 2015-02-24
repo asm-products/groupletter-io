@@ -22,8 +22,9 @@
 - `npm install`
 - `bower install`
 - `gulp`
+- Setup [environment configuration](http://laravel.com/docs/5.0/configuration) file `.env`. See `.env.example`.
 
-- Setup [environment configuration]((http://laravel.com/docs/5.0/configuration)). See `.env.example`.
+During development, run `gulp watch` on your local machine.
 
 You can now visit the site locally and login with admin@groupletter.io / admin
 
