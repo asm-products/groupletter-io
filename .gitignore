@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+/bower_components
+public/build
+.env
+composer.lock
+.DS_Store

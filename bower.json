@@ -1,0 +1,20 @@
+{
+  "name": "groupletter",
+  "version": "0.0.1",
+  "authors": [
+    "Reinier Ladan <reinierl@gmail.com>"
+  ],
+  "description": "Groupletter - Group curated newsletters",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.7.0",
+    "jquery": "~2.1.3"
+  }
+}
