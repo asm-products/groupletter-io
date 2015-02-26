@@ -13,6 +13,8 @@
 
 ### Run
 
+- Setup [environment configuration](http://laravel.com/docs/5.0/configuration) file `.env`. See `.env.example`.
+
 #### In dev environment in project root (homestead)
 - `composer install`
 - `php artisan migrate`
@@ -22,11 +24,9 @@
 - `npm install`
 - `bower install`
 - `gulp`
-- Setup [environment configuration](http://laravel.com/docs/5.0/configuration) file `.env`. See `.env.example`.
+- `gulp watch` while developing
 
-During development, run `gulp watch` on your local machine.
-
-You can now visit the site locally and login with admin@groupletter.io / admin
+You can now visit the site locally (depends on your Homestead settings) and login with admin@groupletter.io / admin
 
 ## Group curated newsletters.
 
