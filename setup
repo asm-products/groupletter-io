@@ -1,0 +1,11 @@
+#!/bin/bash
+
+npm install --global gulp
+
+npm install -g bower
+
+npm install
+
+bower install
+
+gulp
