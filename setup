@@ -1,11 +1,32 @@
 #!/bin/bash
 
-npm install --global gulp
+# Check for command-line options/arguments
+while [[ $# > 0 ]]
+do
+key="$1"
 
-npm install -g bower
+case $key in
+    -u|--update)
+    NEWINSTALL=0 # We don't need to install gulp and bower
+    ;;
+    *)
+		# unknown option
+    ;;
+esac
+shift
+done
+
+# We need gulp and bower
+if [ "$NEWINSTALL" != "0" ]; then
+	npm install --global gulp
+
+	npm install -g bower
+fi
 
 npm install
 
 bower install
 
 gulp
+
+# End of file
