@@ -34,6 +34,8 @@ You can now visit the site locally (depends on your Homestead settings) and logi
 
 ## Group curated newsletters.
 
+This project is currently under development. To give you an idea of the concept visit: [First product update and rough idea](https://assembly.com/groupletter/posts/first-product-update-and-rough-idea)
+
 This is a product being built by the Assembly community. You can help push this idea forward by visiting [https://assembly.com/groupletter](https://assembly.com/groupletter).
 
 ### How Assembly Works
